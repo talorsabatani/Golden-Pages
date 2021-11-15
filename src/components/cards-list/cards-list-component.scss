@@ -1,0 +1,52 @@
+.cards-list-component {
+  width: 100%;
+  height: 100%;
+  padding: 80px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+
+  .search-wrapper {
+    margin-bottom: 16px;
+    min-width: 800px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+
+    .input {
+      height: 100px;
+      width: 50%;
+      margin-right: 16px;
+    }
+
+    .radio-group-wrapper {
+      margin-right: 16px;
+
+      .MuiFormGroup-root {
+        flex-direction: row;
+      }
+    }
+
+    .button {
+      height: 56px;
+    }
+  }
+
+  .card-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding-bottom: 16px;
+  }
+
+  .button-wrapper {
+    width: 100%;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dialogWrapper {
+    width: 400px;
+  }
+}

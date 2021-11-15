@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
+#landing-component {
+  height: 100%;
+  width: 100%;
+  font-family: "Racing Sans One", cursive;
+
+  #content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    #header {
+      font-size: 48px;
+      margin-bottom: 32px;
+      text-overflow: clip;
+      color: #ffeb3b;
+      -webkit-text-stroke: 1pt black;
+    }
+
+    #message {
+      font-size: 32px;
+    }
+  }
+}
